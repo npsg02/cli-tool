@@ -23,6 +23,8 @@ cli-tool/
 
 ## Quick Start
 
+**See [EXAMPLE.md](EXAMPLE.md) for a complete walkthrough!**
+
 ### 1. Generate a new CLI tool
 
 ```bash
@@ -172,6 +174,31 @@ Depending on the language you choose, you'll need:
 | `build-all.sh` | Build all CLI tools in src folder |
 | `add-to-path.sh` | Add bin directory to system PATH for easy access |
 | `remove-from-path.sh` | Remove bin directory from system PATH |
+
+## Contributing
+
+To add a new language template:
+
+1. Create a new directory in `template/` with the language name
+2. Add the necessary template files
+3. Use `{{PROJECT_NAME}}` as a placeholder for the project name
+4. Add a README.md with usage instructions
+5. Update the `generate.sh` script to support the new language
+6. Update the `build.sh` script to handle building the new language
+
+## Troubleshooting
+
+**Problem**: Scripts don't execute  
+**Solution**: Make sure scripts are executable: `chmod +x *.sh`
+
+**Problem**: Build fails for Go/Rust  
+**Solution**: Ensure the language toolchain is installed (go, cargo, etc.)
+
+**Problem**: PATH changes don't take effect  
+**Solution**: Restart your terminal or run `source ~/.bashrc` (or `~/.zshrc`)
+
+**Problem**: Permission denied when running binaries  
+**Solution**: Make sure the binary is executable: `chmod +x bin/your-tool`
 
 ## License
 
