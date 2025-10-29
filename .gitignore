@@ -1,0 +1,46 @@
+# Build artifacts
+bin/*
+!bin/.gitkeep
+
+# Language-specific
+## Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+go.sum
+
+## Rust
+target/
+Cargo.lock
+
+## Node.js
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+## Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.log
+*.tmp
+.env

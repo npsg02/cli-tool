@@ -1,0 +1,15 @@
+{
+  "name": "{{PROJECT_NAME}}",
+  "version": "1.0.0",
+  "description": "A CLI tool built with Node.js",
+  "main": "main.js",
+  "bin": {
+    "{{PROJECT_NAME}}": "./main.js"
+  },
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": ["cli"],
+  "author": "",
+  "license": "ISC"
+}
