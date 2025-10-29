@@ -23,7 +23,7 @@ cli-tool/
 
 ## Quick Start
 
-**See [EXAMPLE.md](EXAMPLE.md) for a complete walkthrough!**
+**See [EXAMPLE.md](EXAMPLE.md) for a complete walkthrough and [QUICKREF.md](QUICKREF.md) for a quick reference!**
 
 ### 1. Generate a new CLI tool
 
