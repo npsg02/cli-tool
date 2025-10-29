@@ -160,10 +160,10 @@ After generating a CLI tool:
 Depending on the language you choose, you'll need:
 
 - **Bash**: No additional requirements (available on Unix-like systems)
-- **Go**: Go 1.21 or later
+- **Go**: Go 1.19 or later
 - **Node.js**: Node.js 14 or later
-- **Python**: Python 3.6 or later
-- **Rust**: Rust 1.70 or later (with Cargo)
+- **Python**: Python 3.8 or later
+- **Rust**: Rust 1.65 or later (with Cargo)
 
 ## Scripts Reference
 

@@ -43,10 +43,10 @@ source ~/.bashrc  # or ~/.zshrc
 | Language | Requirement | Check Command |
 |----------|-------------|---------------|
 | Bash | Built-in on Unix | `bash --version` |
-| Go | Go 1.21+ | `go version` |
+| Go | Go 1.19+ | `go version` |
 | Node.js | Node 14+ | `node --version` |
-| Python | Python 3.6+ | `python3 --version` |
-| Rust | Rust 1.70+ | `rustc --version` |
+| Python | Python 3.8+ | `python3 --version` |
+| Rust | Rust 1.65+ | `rustc --version` |
 
 ## Project File Structure
 
